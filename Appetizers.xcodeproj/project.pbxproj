@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		80F0E5B4283D872100712E49 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5B3283D872100712E49 /* AppetizersApp.swift */; };
-		80F0E5B6283D872100712E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5B5283D872100712E49 /* ContentView.swift */; };
+		80F0E5B6283D872100712E49 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5B5283D872100712E49 /* AppetizersTabView.swift */; };
 		80F0E5B8283D872200712E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F0E5B7283D872200712E49 /* Assets.xcassets */; };
 		80F0E5BB283D872200712E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F0E5BA283D872200712E49 /* Preview Assets.xcassets */; };
+		80F0E5C2283D87CF00712E49 /* AppetizersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5C1283D87CF00712E49 /* AppetizersListView.swift */; };
+		80F0E5C4283D87DA00712E49 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5C3283D87DA00712E49 /* AccountView.swift */; };
+		80F0E5C6283D87E900712E49 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E5C5283D87E900712E49 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80F0E5B0283D872100712E49 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F0E5B3283D872100712E49 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		80F0E5B5283D872100712E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80F0E5B5283D872100712E49 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
 		80F0E5B7283D872200712E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F0E5BA283D872200712E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80F0E5C1283D87CF00712E49 /* AppetizersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListView.swift; sourceTree = "<group>"; };
+		80F0E5C3283D87DA00712E49 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		80F0E5C5283D87E900712E49 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				80F0E5B3283D872100712E49 /* AppetizersApp.swift */,
-				80F0E5B5283D872100712E49 /* ContentView.swift */,
+				80F0E5B5283D872100712E49 /* AppetizersTabView.swift */,
 				80F0E5B7283D872200712E49 /* Assets.xcassets */,
 				80F0E5B9283D872200712E49 /* Preview Content */,
+				80F0E5C1283D87CF00712E49 /* AppetizersListView.swift */,
+				80F0E5C3283D87DA00712E49 /* AccountView.swift */,
+				80F0E5C5283D87E900712E49 /* OrderView.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F0E5B6283D872100712E49 /* ContentView.swift in Sources */,
+				80F0E5C4283D87DA00712E49 /* AccountView.swift in Sources */,
+				80F0E5B6283D872100712E49 /* AppetizersTabView.swift in Sources */,
 				80F0E5B4283D872100712E49 /* AppetizersApp.swift in Sources */,
+				80F0E5C2283D87CF00712E49 /* AppetizersListView.swift in Sources */,
+				80F0E5C6283D87E900712E49 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
