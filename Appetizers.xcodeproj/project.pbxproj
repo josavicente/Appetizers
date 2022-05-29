@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80795E752843FEEF003E8FA0 /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80795E742843FEEF003E8FA0 /* AppetizersListViewModel.swift */; };
+		80795E7728440132003E8FA0 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80795E7628440132003E8FA0 /* Alert.swift */; };
 		808F98D92840132100EE43AF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98D82840132100EE43AF /* Appetizer.swift */; };
 		808F98DB2840181700EE43AF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98DA2840181700EE43AF /* AppetizerListCell.swift */; };
 		808F98DD284019B800EE43AF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98DC284019B800EE43AF /* NetworkManager.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		80795E742843FEEF003E8FA0 /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
+		80795E7628440132003E8FA0 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		808F98D82840132100EE43AF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		808F98DA2840181700EE43AF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		808F98DC284019B800EE43AF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				808F98DC284019B800EE43AF /* NetworkManager.swift */,
 				808F98DE28401AC200EE43AF /* APError.swift */,
 				80795E742843FEEF003E8FA0 /* AppetizersListViewModel.swift */,
+				80795E7628440132003E8FA0 /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				80F0E5B6283D872100712E49 /* AppetizersTabView.swift in Sources */,
 				808F98DD284019B800EE43AF /* NetworkManager.swift in Sources */,
 				80F0E5B4283D872100712E49 /* AppetizersApp.swift in Sources */,
+				80795E7728440132003E8FA0 /* Alert.swift in Sources */,
 				80F0E5C2283D87CF00712E49 /* AppetizersListView.swift in Sources */,
 				80F0E5C6283D87E900712E49 /* OrderView.swift in Sources */,
 			);
