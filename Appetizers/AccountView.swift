@@ -17,13 +17,13 @@ struct AccountView: View {
         NavigationView{
             Form{
                 Section {
-                    TextField("First Name", text: $viewModel.firstName)
-                    TextField("Last Name", text: $viewModel.lastName)
-                    TextField("email", text: $viewModel.email)
+                    TextField("First Name", text: $viewModel.user.firstName)
+                    TextField("Last Name", text: $viewModel.user.lastName)
+                    TextField("email", text: $viewModel.user.email)
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
-                    DatePicker("Birth Day", selection: $viewModel.date, displayedComponents: .date)
+                    DatePicker("Birth Day", selection: $viewModel.user.date, displayedComponents: .date)
                     Button{
                         viewModel.saveChanges()
                     } label: {
@@ -34,8 +34,8 @@ struct AccountView: View {
                 }
                 
                 Section {
-                    Toggle("Extra Napkins", isOn: $viewModel.extraNapkins)
-                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
+                    Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
+                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                         
                 } header: {
                     Text("Requests")
@@ -44,7 +44,11 @@ struct AccountView: View {
 
             }
                 .navigationTitle("😎 Appetizers")
-        }.alert(item: $viewModel.alertItem) { alertItem in
+        }
+        .onAppear(){
+            viewModel.retrieveUser()
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dissmissButton)
         }
     }
