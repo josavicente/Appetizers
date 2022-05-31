@@ -15,6 +15,7 @@
 		80795E7B28440E8E003E8FA0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80795E7A28440E8E003E8FA0 /* LoadingView.swift */; };
 		80795E7D28440FC7003E8FA0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80795E7C28440FC7003E8FA0 /* Color+Ext.swift */; };
 		80795E7F284412F4003E8FA0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80795E7E284412F4003E8FA0 /* AppetizerDetailView.swift */; };
+		808C80A32846A845009B55EA /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C80A22846A845009B55EA /* Date+ext.swift */; };
 		808F98D92840132100EE43AF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98D82840132100EE43AF /* Appetizer.swift */; };
 		808F98DB2840181700EE43AF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98DA2840181700EE43AF /* AppetizerListCell.swift */; };
 		808F98DD284019B800EE43AF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F98DC284019B800EE43AF /* NetworkManager.swift */; };
@@ -43,6 +44,7 @@
 		80795E7A28440E8E003E8FA0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		80795E7C28440FC7003E8FA0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		80795E7E284412F4003E8FA0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		808C80A22846A845009B55EA /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
 		808F98D82840132100EE43AF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		808F98DA2840181700EE43AF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		808F98DC284019B800EE43AF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				80B6EA6F284551BD00CBF31E /* User.swift */,
 				80B6EA7428455BAC00CBF31E /* Order.swift */,
 				80B6EA762845654500CBF31E /* CustomModifiers.swift */,
+				808C80A22846A845009B55EA /* Date+ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				807461A828454319000B1375 /* XDismissButton.swift in Sources */,
 				80795E752843FEEF003E8FA0 /* AppetizersListViewModel.swift in Sources */,
 				80B6EA7528455BAC00CBF31E /* Order.swift in Sources */,
+				808C80A32846A845009B55EA /* Date+ext.swift in Sources */,
 				80B6EA6C2845494100CBF31E /* AccountViewModel.swift in Sources */,
 				808F98DF28401AC200EE43AF /* APError.swift in Sources */,
 				80795E792844087F003E8FA0 /* RemoteImage.swift in Sources */,
